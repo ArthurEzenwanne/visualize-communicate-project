@@ -18,3 +18,8 @@ From the multivariate plots of economic status, risk and rate we observed that b
 
 
 ## Key Insights for Presentation
+For the slide deck I will be focusing on the influence of Prosper risk analysis ratings (`ProsperRating`) and credit score bands (`CreditScoreRange`) on interest rates. My hypothesis is that there is a positive relationship between `CreditScoreRange` and `ProsperRating` and an inverse relationship with `BorrowerRate`.
+
+I begin by looking at distributions of the features of interest viz `CreditScoreRange`, `ProsperRating`, and `BorrowerRate`; then studying how each score metric is correlated with rate and finally how both score metrics is distributed against rate. I hypothesize that applications with high score metrics would most likely have very low rates of interest.
+
+This project is part of the series executed in my Udacity Data Analyst program.
